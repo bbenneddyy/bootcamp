@@ -21,17 +21,20 @@ a {
     border-radius: 20px
 }
 .grid-container {
-    display: block;
-
-    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
-    gap: 5px; /* Gap between grid items */
-    justify-items: center;
-    border: 2px solid #ccc;
+    display: grid ;
+    border: 2px solid #000000;
+    align-items: center;
+    grid-template-columns: auto auto;
+    grid-gap:10px;
+    
   }
-.grid-box {
-    background-color: #f0f0f0;
-    text-align: center;
-    border: 20px solid #000000; /* Border color set to gray */
-    flex: 1; /* Allow the box to flex to fit its content */
+  
+  .grid-box {
+    background-color: rgba(13, 75, 54);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid red;
+    justify-content: space-around
   }
   
