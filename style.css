@@ -1,0 +1,37 @@
+
+tag1 {color: aqua;}
+.class1 {color: rgb(212, 106, 18);}
+#id1 {color:rgb(7, 83, 1)}
+body {background-color: rgb(170, 230, 33)}
+item {
+    display:flex
+}
+container {
+    display: flex;
+    align-items: baseline;
+    gap: 20px 
+}
+a {
+    margin: 20px
+}
+.Box {
+    background-color: rgb(134, 118, 98);
+    font-size: 40px;
+    padding: 50px;
+    border-radius: 20px
+}
+.grid-container {
+    display: block;
+
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    gap: 5px; /* Gap between grid items */
+    justify-items: center;
+    border: 2px solid #ccc;
+  }
+.grid-box {
+    background-color: #f0f0f0;
+    text-align: center;
+    border: 20px solid #000000; /* Border color set to gray */
+    flex: 1; /* Allow the box to flex to fit its content */
+  }
+  
